@@ -13,9 +13,14 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "renovate-config-validator default.json"
+    "test": "renovate-config-validator default.json",
+    "version": "changeset",
+    "version:apply": "changeset version",
+    "version:publish": "changeset tag"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.2",
     "renovate": "37.4.0"
   },
   "packageManager": "pnpm@8.8.0"
