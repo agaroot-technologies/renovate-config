@@ -12,5 +12,11 @@
     "url": "git+https://github.com/agaroot-technologies/renovate-config.git"
   },
   "license": "MIT",
+  "scripts": {
+    "test": "renovate-config-validator default.json"
+  },
+  "devDependencies": {
+    "renovate": "37.4.0"
+  },
   "packageManager": "pnpm@8.8.0"
 }
