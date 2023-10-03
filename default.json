@@ -1,5 +1,30 @@
 {
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    ":automergeMinor",
+    ":label(deps)",
+    ":semanticCommitScopeDisabled",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "platformAutomerge": true,
+  "branchPrefix": "deps/",
+  "schedule": [
+    "after 10:00 before 18:00 every weekday"
+  ],
+  "ignorePaths": [
+    "**/node_modules/**"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "ignoreDeps": ["postgres", "mysql"],
+      "automerge": false
+    },
+    {
+      "groupName": "envelop packages",
+      "matchPackagePrefixes": [
+        "@envelop/"
+      ]
+    }
   ]
 }
