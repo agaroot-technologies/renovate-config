@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/agaroot-technologies/renovate-config/blob/main/LICENSE)
 [![Github](https://img.shields.io/github/followers/agaroot-technologies?label=Follow&logo=github&style=social)](https://github.com/orgs/agaroot-technologies/followers)
 
-This is a Renovate config commonly inherited by Agaroot products.
+This is a Renovate config commonly inherited by AGAROOT products.
 
 Use this setting to keep up with updates to the library and maintain high code quality.
 
