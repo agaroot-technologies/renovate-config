@@ -12,8 +12,8 @@ devDependencies:
     specifier: 2.26.2
     version: 2.26.2
   renovate:
-    specifier: 37.32.0
-    version: 37.32.0(typanion@3.14.0)
+    specifier: 37.33.2
+    version: 37.33.2(typanion@3.14.0)
 
 packages:
 
@@ -2287,8 +2287,8 @@ packages:
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
     dev: true
 
-  /@types/ms@0.7.32:
-    resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
+  /@types/ms@0.7.33:
+    resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
     dev: true
 
   /@types/node@12.20.55:
@@ -2321,8 +2321,8 @@ packages:
     resolution: {integrity: sha512-F/IjUGnV6pIN7R4ZV4npHJVoNtaLZWvb+2/9gctxjb99wkpI7Ozg8VPogwDiTRyjLwZXAYxjvdg1KS8LTHKdDA==}
     dev: true
 
-  /@types/tmp@0.2.4:
-    resolution: {integrity: sha512-Vq3rwM+2KgiLacq68EjTJD9cuJ/ne5pXntWn8B8Rxj25SLkGAhCgooCZ1lhcIcV5OFveJ+s5Cqpi+XKfFM/xZA==}
+  /@types/tmp@0.2.5:
+    resolution: {integrity: sha512-KodRrjqWrk/3VyzfR4aeXkf2n5Ssg+bvVUhXlvHVffLiIHriLlrO3vYobB+Kvnr9DkNzMiyWHT3G6hT/xX0ryQ==}
     dev: true
 
   /@types/treeify@1.0.1:
@@ -5480,8 +5480,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.32.0(typanion@3.14.0):
-    resolution: {integrity: sha512-gEULa1hl/GKHyn42YYfK4ID7MbNer4Z2et8UefGCACW/8PUKBtZZ8YeH2FPnf7SK00aBdvnpeTJ/f5i4eERTzw==}
+  /renovate@37.33.2(typanion@3.14.0):
+    resolution: {integrity: sha512-kePHd2FL12ibYhNgw2Blo/Mdd07/lVthKVtZ/G7bn3knGc4aRzEb1E/NbmtIeDMNlde12+yi3n6t95RvgxUv4g==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5509,8 +5509,8 @@ packages:
       '@renovatebot/pep440': 3.0.9
       '@renovatebot/ruby-semver': 3.0.16
       '@sindresorhus/is': 4.6.0
-      '@types/ms': 0.7.32
-      '@types/tmp': 0.2.4
+      '@types/ms': 0.7.33
+      '@types/tmp': 0.2.5
       '@yarnpkg/core': 3.5.4(typanion@3.14.0)
       '@yarnpkg/parsers': 2.5.1
       agentkeepalive: 4.5.0
