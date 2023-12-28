@@ -3,6 +3,7 @@
     "config:best-practices",
     ":automergeMinor",
     ":label(deps)",
+    ":semanticCommitTypeAll(deps)",
     ":semanticCommitScopeDisabled",
     ":timezone(Asia/Tokyo)"
   ],
