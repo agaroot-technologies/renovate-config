@@ -1,6 +1,6 @@
 {
   "name": "@agaroot/renovate-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Renovate config for AGAROOT",
   "homepage": "https://github.com/agaroot-technologies/renovate-config",
