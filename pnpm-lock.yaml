@@ -12,8 +12,8 @@ devDependencies:
     specifier: 2.27.1
     version: 2.27.1
   renovate:
-    specifier: 37.175.2
-    version: 37.175.2(typanion@3.14.0)
+    specifier: 37.175.3
+    version: 37.175.3(typanion@3.14.0)
 
 packages:
 
@@ -3900,6 +3900,11 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /ignore@5.3.1:
+    resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
+    engines: {node: '>= 4'}
+    dev: true
+
   /immediate@3.0.6:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
     dev: true
@@ -5339,8 +5344,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.175.2(typanion@3.14.0):
-    resolution: {integrity: sha512-3CDxbNg40wX+PRlOChs1P2cOov4Qsh0jP2ce8hYyedY8AiKsjt/hVpi1WhJ2aKQgIysDAEeP2ora+O90ofhcsg==}
+  /renovate@37.175.3(typanion@3.14.0):
+    resolution: {integrity: sha512-ht88mjVGWEl1MHMMAtqJbRz1tZ32sNM2cRoeL8pnlRQ9WGjIOQ3e12cvn+ALH9edFrFhldhlCrRj+SO/bFku8g==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5408,7 +5413,7 @@ packages:
       got: 11.8.6
       graph-data-structure: 3.5.0
       handlebars: 4.7.8
-      ignore: 5.3.0
+      ignore: 5.3.1
       ini: 4.1.1
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
