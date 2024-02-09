@@ -12,8 +12,8 @@ devDependencies:
     specifier: 2.27.1
     version: 2.27.1
   renovate:
-    specifier: 37.175.3
-    version: 37.175.3(typanion@3.14.0)
+    specifier: 37.180.0
+    version: 37.180.0(typanion@3.14.0)
 
 packages:
 
@@ -3677,7 +3677,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.3.1
-      ignore: 5.3.0
+      ignore: 5.3.1
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -3893,11 +3893,6 @@ packages:
 
   /ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
-    dev: true
-
-  /ignore@5.3.0:
-    resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
-    engines: {node: '>= 4'}
     dev: true
 
   /ignore@5.3.1:
@@ -5344,8 +5339,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.175.3(typanion@3.14.0):
-    resolution: {integrity: sha512-ht88mjVGWEl1MHMMAtqJbRz1tZ32sNM2cRoeL8pnlRQ9WGjIOQ3e12cvn+ALH9edFrFhldhlCrRj+SO/bFku8g==}
+  /renovate@37.180.0(typanion@3.14.0):
+    resolution: {integrity: sha512-PCnxc1bsq/jGvQe7ivYT7fRBSDRTO8KRACrSrDzqC6ug7JsN3PhkeD8djRP3spzYPih3EPJtUisIUSIuJ/n+aQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
