@@ -26,6 +26,12 @@
       "matchPackagePrefixes": [
         "@envelop/"
       ]
+    },
+    {
+      "groupName": "pothos packages",
+      "matchPackagePrefixes": [
+        "@pothos/"
+      ]
     }
   ]
 }
