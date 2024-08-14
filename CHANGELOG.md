@@ -1,5 +1,11 @@
 # @agaroot/renovate-config
 
+## 1.2.0
+
+### Minor Changes
+
+- [#249](https://github.com/agaroot-technologies/renovate-config/pull/249) [`790e7c2`](https://github.com/agaroot-technologies/renovate-config/commit/790e7c2731f04231a3a7ed8480ff6efeebc91006) Thanks [@zack-msyc86](https://github.com/zack-msyc86)! - add @agaroot/eslint-config package group
+
 ## 1.1.0
 
 ### Minor Changes
