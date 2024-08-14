@@ -32,6 +32,12 @@
       "matchPackagePrefixes": [
         "@pothos/"
       ]
+    },
+    {
+      "groupName": "Agaroot eslint config packages",
+      "matchPackagePrefixes": [
+        "@agaroot/eslint-config-"
+      ]
     }
   ]
 }
