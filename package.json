@@ -21,7 +21,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.5.0",
     "@changesets/cli": "2.27.8",
-    "renovate": "38.93.3"
+    "renovate": "38.94.3"
   },
   "packageManager": "pnpm@9.11.0"
 }
